@@ -41,7 +41,7 @@ const Page = () => {
           <p>{userDetails.address}</p>
         </div>
         <div className="products-list">
-          <h2 className="checkout-title">Your order:</h2>
+          <h2 className="checkout-title">Your order: ${total}</h2>
           <div className="checkout-products-list">
             {products.map(product => <CartProduct key={product.id} product={product} />)}
           </div>
