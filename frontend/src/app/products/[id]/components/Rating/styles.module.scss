@@ -1,0 +1,10 @@
+.rating {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: normal;
+  svg {
+    stroke: #5f5ce6;
+  }
+}

@@ -1,0 +1,23 @@
+.accordion {
+  width: 100%;
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  justify-content: space-between;
+}
+
+.content {
+
+}
+
+.chevron {
+  &.rotated {
+    transform: rotate(180deg);
+  }
+}

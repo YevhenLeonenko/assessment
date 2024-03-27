@@ -1,0 +1,18 @@
+.button {
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  &.primary {
+    background: #1c1c1e;
+    color: #ffffff;
+  }
+  &.secondary {
+    border: 1px solid #1c1c1e;
+    background: #ffffff;
+    color: #1c1c1e;
+  }
+}

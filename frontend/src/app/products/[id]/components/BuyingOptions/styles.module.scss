@@ -1,0 +1,73 @@
+.buyingOptions {
+  margin-top: 18px;
+}
+
+.colorLabel {
+  padding: 0 16px;
+  font-size: 12px;
+  span{
+    font-weight: bold;
+  }
+}
+
+.colorSelection {
+  margin-top: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.colorSelectionItems {
+  margin-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  overflow-x: scroll;
+  display: flex;
+  gap: 16px;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.colorSelectionItem {
+  width: 25vw;
+  height: 25vw;
+  flex-shrink: 0;
+  object-fit: contain;
+  border: 1px solid transparent;
+  transition: hover .3s ease-in-out;
+  cursor: pointer;
+  &:hover{
+    border: 1px solid #5f5ce6;
+  }
+}
+
+.selectAndBuy {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.selectSize {
+  font-size: 16px;
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 10px;
+}
+
+.addToBag{
+  background: #1c1c1e;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+

@@ -1,0 +1,20 @@
+.basicInformation{
+  padding: 28px 16px 16px;
+  .manufacturer{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .nameAndPrice {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .name{
+    font-size: 17px;
+  }
+  .price{
+    font-size: 22px;
+    font-weight: 500;
+  }
+}

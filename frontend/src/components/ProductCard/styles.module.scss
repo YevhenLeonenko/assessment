@@ -1,0 +1,36 @@
+.productCard{
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+  align-self: stretch;
+  &.scrollable{
+    width: 59vw;
+    flex-shrink: 0;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-height: 240px;
+  }
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .manufacturer {
+    font-size: 12px;
+  }
+  .manufacturer, .title {
+    margin-top: 10px;
+    color: #87878a;
+  }
+  .price, .title{
+    font-size: 18px;
+  }
+  .price {
+    margin-top: auto;
+    padding-top: 16px;
+  }
+}

@@ -1,0 +1,26 @@
+.chip {
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  border: 1px solid #30DB5B;
+  justify-content: space-between;
+}
+
+.chipMessage {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.chipIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

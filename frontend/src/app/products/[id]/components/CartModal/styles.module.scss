@@ -1,0 +1,52 @@
+.modal {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(2px);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 10px 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 95%;
+  width: 100%;
+}
+
+.products{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: auto;
+}

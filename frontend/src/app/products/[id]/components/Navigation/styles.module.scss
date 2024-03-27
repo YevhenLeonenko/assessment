@@ -1,0 +1,35 @@
+.cartLink {
+  color: inherit;
+  position: relative;
+}
+
+.productsCount {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background: #D70015;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  left: 0;
+  top: 20px;
+  padding: 0 16px;
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,31 @@
+.footer{
+  background: #ffffff;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 26px 30px 36px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
+  a {
+    color: inherit;
+    position: relative;
+  }
+}
+
+.productsCount {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background: #D70015;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
