@@ -56,6 +56,14 @@ Navigate to `frontend` directory from repository root and execute:
 npm run dev
 ```
 
+### Notes
+
+**1** Ideally, adding products to cart and wishlist should be connected to API so it would be possible to save user session and restore it when user closes the app and comes back.
+As an alternative, using localstorage to save cart and wishlist data would be a possible solution as well
+
+**2** In real life scenario, validation rules in checkout steps should be also implemented depending on field type/business requirements, e.g. credit card number, format, expiration date, etc
+
+
 [Node.js]: https://nodejs.org
 [Next.js]: https://nextjs.org
 [Express.js]: https://expressjs.com
